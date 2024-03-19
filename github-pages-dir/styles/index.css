@@ -1,0 +1,11 @@
+header {
+    box-sizing: border-box;
+    width: 60vw;
+    margin: 1em auto;
+}
+
+nav {
+    box-sizing: border-box;
+    width: 60vw;
+    margin: 0 auto;
+}

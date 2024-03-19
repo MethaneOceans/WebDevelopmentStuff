@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --colorA: #8ABFA5;
+    --colorB: #C0D9C3;
+    --colorC: #262523;
+    --colorD: #D88D63;
+    --colorE: #A64F3C;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: var(--colorE);
+}
+ul {
+    list-style: none;
+}
+
+/* header {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px 20px;
+    background-color: var(--colorD);
+    box-shadow: 20px 10px var(--colorC);
+} */
+
+.shadowBox {
+    padding: 20px 20px;
+    background-color: var(--colorD);
+    box-shadow: 20px 10px var(--colorC);
+}
+
+.hoverMenu li {
+    margin: 10px;
+    background-color: var(--colorE);
+}
+.hoverMenu li a {
+    display: block;
+    padding: 10px;
+    background-color: var(--colorA);
+    text-decoration: none;
+}
+.hoverMenu li:hover, .hoverMenu a:hover {
+    a {
+        position: relative;
+        bottom: 5px;
+        right: 10px;
+        background-color: var(--colorB);
+    }
+}
+
+.hoverButton {
+    background-color: var(--colorE);
+}
+.hoverButton h1 {
+    height: 100%;
+    background-color: var(--colorA);
+}
+
+.hoverButton:hover, .hoverButton h1:hover{
+    h1 {
+        position: relative;
+        bottom: 5px;
+        right: 10px;
+        background-color: var(--colorB);
+    }
+}
+.hoverButton:active, .hoverButton h1:active {
+    h1 {
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+}
